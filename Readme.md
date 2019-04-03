@@ -1,7 +1,7 @@
 # Личный проект «Мишка» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Janus Pater](https://up.htmlacademy.ru/adaptive/16/user/161913).
-* Наставник: `Неизвестно`.
+* Наставник: [Елена Забара](https://htmlacademy.ru/profile/id80826).
 
 ---
 
