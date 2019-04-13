@@ -1,0 +1,54 @@
+.man-process {
+  border: 1px solid $border-grey1;
+  width: 260px;
+}
+
+.man-process__about {
+  padding: 34px 34px 34px;
+}
+
+.man-process__description {
+  font-size: 13px;
+  line-height: 24px;
+  margin: 0 0 29px;
+}
+
+.man-process__top {
+  padding: 26px 34px 26px 86px;
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+
+  &::before {
+    background-image: url("../../img/icon-video.svg");
+    content: "";
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    filter: $filter-seafoam-blue;
+  }
+}
+
+.man-process__heading {
+  font-size: 17px;
+  line-height: 24px;
+  margin: 0;
+}
+
+.man-process__image-wrapper {
+  position: relative;
+}
+
+.man-process__play-button {
+  position: absolute;
+  top: 40px;
+  left: 80px;
+  background-image: url("../../img/icon-play.svg");
+  background-repeat: no-repeat;
+  width: 105px;
+  height: 80px;
+  border: none;
+  background-color: transparent;
+}

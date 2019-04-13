@@ -1,0 +1,30 @@
+.page-catalog__heading-wrapper {
+  background: $background-grey1;
+  height: 177px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-catalog__heading {
+  font-size: 27px;
+  line-height: 30px;
+}
+
+.page-catalog__list-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-catalog__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.page-catalog__wrapper {
+  padding: 30px 30px 58px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
