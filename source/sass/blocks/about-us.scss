@@ -1,0 +1,75 @@
+@import "../variables";
+
+.about-us {
+  padding: 34px 28px;
+}
+
+.about-us__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.about-us__elem {
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: bold;
+  margin-top: 85px;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: -50px;
+    left: 10px;
+    filter: $filter-seafoam-blue;
+  }
+}
+
+.about-us__elem--eco {
+  &::before {
+    width: 32px;
+    height: 37px;
+    background-image: url("../../img/icon-feature-flower.svg");
+  }
+}
+
+.about-us__elem--price {
+  &::before {
+    width: 47px;
+    height: 27px;
+    background-image: url("../../img/icon-feature-money.svg");
+  }
+}
+
+.about-us__elem--traction {
+  &::before {
+    width: 33px;
+    height: 28px;
+    background-image: url("../../img/icon-feature-heart.svg");
+  }
+}
+
+.about-us__elem--handmade {
+  &::before {
+    width: 35px;
+    height: 34px;
+    background-image: url("../../img/icon-feature-ball.svg");
+  }
+}
+
+.about-us__elem--local {
+  &::before {
+    width: 55px;
+    height: 23px;
+    background-image: url("../../img/icon-feature-rocket.svg");
+  }
+}
+
+.about-us__elem--present {
+  &::before {
+    width: 33px;
+    height: 32px;
+    background-image: url("../../img/icon-feature-gift.svg");
+  }
+}
